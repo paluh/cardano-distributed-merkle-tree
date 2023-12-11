@@ -3,7 +3,7 @@
 WIP: Part of my ongoing weekend project 'Unbound Accounting for Marlowe'.
 
 ## Why BST?
-* Because `insert` for Merkle tree with sorted keys seems to overcomplicated. I'm following advice found here [^1]
+* Because `insert` into Merkle tree with sorted keyes is too heavy. I'm following advice found here [^1]
 * And yes I considered static tree prefilled with "empty values" but it would clearly add too much complexity to the preliminary state validation.
 * Because we lack bitwise operators in Plutus to even try Patricia Merkle Trie.
 * Because we lack crypto primitives to even think about Verkle Tree.
